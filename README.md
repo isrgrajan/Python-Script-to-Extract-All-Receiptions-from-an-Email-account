@@ -11,7 +11,7 @@ This API can be a valuable tool for businesses and individuals who need to send 
 2. Install the required libraries: `pip install imaplib openpyxl`
 
 ## Usage
-1. Open the `imap-email-receptions.py` file in a text editor of your choice.
+1. Open the `email_receptions.py` file in a text editor of your choice.
 2. Replace the following variables with the correct values for your email account:
 ```
 imap_host = 'imap.example.com'
@@ -20,7 +20,7 @@ password = 'your_password'
 ```
 3. Run the script using the following command:
 ```
-python imap-email-receptions.py
+python email_receptions.py
 ```
 4. The script will create an Excel file named `email_receptions.xlsx` in the same directory as the script.
 
